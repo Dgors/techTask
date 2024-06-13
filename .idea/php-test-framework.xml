@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpTestFrameworkSettings">
+    <test_tools>
+      <tool tool_name="Codeception">
+        <settings>
+          <configurations>
+            <local_configuration configuration_file_path="$PROJECT_DIR$/project/codeception.yml" executable_path="$PROJECT_DIR$/project/vendor/codeception/codeception/codecept" use_configuration_file="true" />
+          </configurations>
+        </settings>
+      </tool>
+    </test_tools>
+  </component>
+  <component name="PhpTestFrameworkVersionCache">
+    <tools_cache>
+      <tool tool_name="Codeception">
+        <cache>
+          <versions>
+            <info id="LocalB:\Desktop\Yii2\project\vendor\codeception\codeception\codecept" version="5.1.2" />
+            <info id="LocalB:\Programs\XAMPP\htdocs\Yii2\project\vendor\codeception\codeception\codecept" version="5.1.2" />
+          </versions>
+        </cache>
+      </tool>
+    </tools_cache>
+  </component>
+</project>

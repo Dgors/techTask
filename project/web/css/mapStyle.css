@@ -1,0 +1,86 @@
+.marker.red, .marker:hover{
+    background-color: #973535;
+}
+.marker {
+    transition: background-color ease 0.5s;
+}
+.hidden, .popup.hidden {
+    display: none;
+}
+div.marker {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #7c7cb1;
+    border-radius: 30%;
+    background-color: #dcc9c9;
+    z-index: 2;
+}
+.map {
+    height: 800px;
+}
+.map-content {
+    height: max-content;
+}
+.popup {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    min-height: 50px;
+    padding: 20px 25px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 0 0 8px 0 #0003;
+    gap: 20px;
+    position: relative;
+    z-index: 9999;
+    left: 5px;
+    top: 5px;
+}
+.closeModal {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 18px;
+    height: 18px;
+    opacity: 0.2;
+    cursor: pointer;
+    transition: opacity ease 0.5s;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.closeModal::before,
+.closeModal::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    display: block;
+    width: 18px;
+    height: 3px;
+    background: #000;
+}
+
+.closeModal::before {
+    transform: rotate(45deg);
+}
+
+.closeModal::after {
+    transform: rotate(-45deg);
+}
+.popup_content {
+    margin: 5px 8px;
+}
+.popupMarkerElement {
+    padding: 0;
+}
+.obj_text {
+    margin: 0 15px 0 0;
+}
+.filter-container {
+    z-index: 99;
+}
